@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocab Mind - Hesap Silme</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #9B72F2 0%, #7B52D9 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .header p {
+            opacity: 0.9;
+            font-size: 16px;
+        }
+        .content {
+            padding: 40px 30px;
+            line-height: 1.8;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #9B72F2;
+            margin-bottom: 20px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .step {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 12px;
+            border-left: 4px solid #9B72F2;
+            transition: transform 0.2s;
+        }
+        .step:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(155, 114, 242, 0.2);
+        }
+        .step strong {
+            color: #9B72F2;
+            font-size: 18px;
+            display: block;
+            margin-bottom: 8px;
+        }
+        .contact-box {
+            background: linear-gradient(135deg, #FFE5EF 0%, #FFD6E8 100%);
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+        .contact-box p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        .contact-box strong {
+            color: #9B72F2;
+        }
+        .data-list {
+            background: #f8f9fa;
+            padding: 20px 20px 20px 50px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+        .data-list li {
+            margin: 12px 0;
+            font-size: 16px;
+            color: #333;
+        }
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .warning strong {
+            color: #856404;
+        }
+        .email-link {
+            color: #9B72F2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .email-link:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 24px;
+            }
+            .content {
+                padding: 30px 20px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗑️ Vocab Mind</h1>
+            <p>Hesap Silme Talebi</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>📱 Uygulama İçinden Hesap Silme</h2>
+                <div class="step">
+                    <strong>Adım 1:</strong>
+                    Vocab Mind uygulamasını açın
+                </div>
+                <div class="step">
+                    <strong>Adım 2:</strong>
+                    Alt menüden "Ayarlar" sekmesine gidin
+                </div>
+                <div class="step">
+                    <strong>Adım 3:</strong>
+                    "Hesap" bölümünü bulun
+                </div>
+                <div class="step">
+                    <strong>Adım 4:</strong>
+                    "Çıkış Yap" butonuna tıklayın ve onaylayın
+                </div>
+                <div class="step">
+                    <strong>Adım 5:</strong>
+                    Hesabınız ve tüm verileriniz kalıcı olarak silinecektir
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>✉️ E-posta ile Hesap Silme Talebi</h2>
+                <p>Uygulamaya erişiminiz yoksa veya uygulama içinden silme işlemi gerçekleştiremiyorsanız, e-posta yoluyla hesap silme talebinde bulunabilirsiniz:</p>
+
+                <div class="contact-box">
+                    <p><strong>📧 E-posta:</strong> <a href="mailto:yigiterzenapp@gmail.com" class="email-link">yigiterzenapp@gmail.com</a></p>
+                    <p><strong>📝 Konu:</strong> Hesap Silme Talebi - Vocab Mind</p>
+                    <p><strong>📋 E-postanızda belirtmeniz gerekenler:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Hesabınıza kayıtlı e-posta adresi</li>
+                        <li>"Hesabımın silinmesini talep ediyorum" ifadesi</li>
+                    </ul>
+                    <p style="margin-top: 15px;"><strong>⏱️ Yanıt Süresi:</strong> En fazla 30 gün içinde hesabınız silinecektir</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🗂️ Silinecek Veriler</h2>
+                <p>Hesap silme talebiniz onaylandığında aşağıdaki tüm verileriniz kalıcı olarak silinecektir:</p>
+
+                <ul class="data-list">
+                    <li>✅ E-posta adresi ve hesap bilgileri</li>
+                    <li>✅ Profil bilgileri</li>
+                    <li>✅ Eklediğiniz tüm kelimeler ve çeviriler</li>
+                    <li>✅ Oluşturduğunuz kategoriler</li>
+                    <li>✅ Oyun skorları ve istatistikler</li>
+                    <li>✅ Öğrenme ilerlemeniz</li>
+                    <li>✅ Tüm uygulama içi tercihleriniz</li>
+                </ul>
+            </div>
+
+            <div class="warning">
+                <strong>⚠️ Önemli Uyarı:</strong>
+                <p style="margin-top: 10px;">
+                    Hesabınız silindikten sonra tüm verileriniz kalıcı olarak silinir ve <strong>geri getirilemez</strong>.
+                    Hesap silme işlemi tamamlandığında aynı e-posta adresiyle yeni bir hesap oluşturabilirsiniz,
+                    ancak eski verilerinize erişemezsiniz.
+                </p>
+            </div>
+
+            <div class="section" style="margin-top: 40px; text-align: center; color: #666;">
+                <p>Vocab Mind kullandığınız için teşekkür ederiz! 💜</p>
+                <p style="margin-top: 10px; font-size: 14px;">
+                    Gizlilik politikamız hakkında daha fazla bilgi için:
+                    <a href="privacy-policy.html" class="email-link">Gizlilik Politikası</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
